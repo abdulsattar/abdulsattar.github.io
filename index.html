@@ -4,8 +4,14 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <article class="intro">
+    <p>
+    <img src="https://www.gravatar.com/avatar/57733f1aef49b1201107b7fcf8c2ec53?s=100" title="" style="display: none;">
+    Abdulsattar Mohammed is a software developer. He's worked on Ruby on Rails, Symfony and ASP.NET MVC. He's a programming language enthusiast who has worked on C#, Ruby, Haskell and is also interested in Idris, Golang, Elixir, Rust etc.
+    </p>
+  </article>
 
+  <h1 class="page-heading">Posts</h1>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -17,7 +23,5 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

@@ -9,4 +9,9 @@ twitter_username: bimorphic
 github_username:  abdulsattar
 
 # Build settings
+gems:
+  - jekyll-sitemap
 markdown: redcarpet
+permalink: /:title/
+redcarpet:
+  extensions: [strikethrough]

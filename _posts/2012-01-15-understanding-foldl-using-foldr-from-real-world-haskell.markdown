@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Understanding foldl Using foldr from Real World Haskell
-date: 2015-05-04 21:28:35.000000000 +05:30
+date: 2012-01-15 21:28:35.000000000 +05:30
 ---
 [Real World Haskell](http://book.realworldhaskell.org/read) presents an interesting challenge in the chapter [How to Think About Loops](http://book.realworldhaskell.org/read/functional-programming.html). How do you explain this `foldl` implemented in terms of `foldr`?
 

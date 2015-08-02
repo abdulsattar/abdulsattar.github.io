@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started With MVVM in WPF
-date: 2015-05-04 21:13:02.000000000 +05:30
+date: 2010-01-12 21:13:02.000000000 +05:30
 ---
 I've been working with MVVM and WPF for a couple of weeks now. I decided to log what I've learned here. Here goes a getting started tutorial with MVVM.
 
