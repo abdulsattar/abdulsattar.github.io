@@ -20,6 +20,7 @@ end
 ```
 
 But, you know, this is flawed. Here are the scenarios in which it can fail.
+
 1. You pass value that is not an array<sup>1</sup>
 2. You pass null
 3. You pass an empty array
@@ -35,6 +36,7 @@ public int first(int[] list) {
 ```
 
 You can be assured that the argument passed to `first` will be an `int`. Java handles the first flaw at compile time itself.
+
 1. ~~You pass value that does not have type array<sup>1</sup>~~
 2. You pass null
 3. You pass an empty array
@@ -107,6 +109,7 @@ first (x::xs) = x
 ```
 
 We can always guarantee that `first` always receives an array that is neither null nor empty. There you go, strike off the 3<sup>rd</sup> point from the list too.
+
 1. ~~You pass value that does not have type array<sup>1</sup>~~
 2. ~~You pass null~~
 3. ~~You pass an empty array~~
