@@ -156,7 +156,19 @@
     }
 }
 
-
+.intro {
+   p {
+       @extend %clearfix;
+       .photo {
+           padding: 5px;
+           border: #eee 1px solid;
+           border-radius: 5px;
+           width: 100px;
+           margin-right: 20px;
+           float: left;
+       }
+   }
+}
 
 /**
  * Page content
