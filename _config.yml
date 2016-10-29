@@ -1,6 +1,6 @@
 # Site settings
 title: Bimorphic
-email: blog@bimorphic.com
+email: me@bimorphic.com
 description: > # this means to ignore newlines until "baseurl:"
   Personal thoughts of Abdulsattar Mohammed on programming and software development.
 baseurl: "" # the subpath of your site, e.g. /blog/
