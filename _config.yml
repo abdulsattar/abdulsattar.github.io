@@ -1,11 +1,9 @@
 # Site settings
 title: Abdulsattar
 email: asattar.md@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Personal thoughts of Abdulsattar Mohammed on programming and software development.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://bimorphic.com" # the base hostname & protocol for your site
-twitter_username: bimorphic
+twitter_username: asattarmd
 github_username: abdulsattar
 
 # Build settings
